@@ -1,7 +1,7 @@
 import streamlit as st
 
 # wax density in kg/l
-density = 0.8842 
+density = 0.8810 
 
 st.title('Candle Cruncher 🕯️ ⚖️')
 
