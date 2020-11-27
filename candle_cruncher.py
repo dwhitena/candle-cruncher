@@ -25,7 +25,7 @@ else:
     weight = 0.0875*(volume*density)
 
 # Convert kg to lbs
-weight = 2.20462*weight
+weight = 2.20462*weight*0.97 
 weight_pounds = int(weight)
 weight_ounces = weight*16.0 - float(weight_pounds)*16.0
 
