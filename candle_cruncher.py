@@ -37,7 +37,7 @@ st.header('Target Volume')
 # Input Pots
 
 pots= st.number_input('Number of pots', min_value=1.0, 
-        max_value=110.0, value=80.0, step=1.00, format=None, key=None)
+        max_value=200.0, value=80.0, step=1.00, format=None, key=None)
 
 weight_kg = pots*1.81437
 target = weight_kg/0.884859
