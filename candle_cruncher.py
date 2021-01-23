@@ -10,7 +10,7 @@ st.title('Candle Cruncher 🕯️ ⚖️')
 # Target Volume
 #----------------
 
-st.header('Target Volume')
+st.header('Target volume')
 
 # Input Pots
 
