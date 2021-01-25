@@ -82,11 +82,11 @@ manual_vol = 706.5*length*0.016
 
 # Get fragrance dosing
 if option == 'Christmas Day':
-    manual_weight = 0.08125*(volume*density)
+    manual_weight = 0.08125*(manual_vol*density)
 elif option == 'Orange Grove':
-    manual_weight = 0.09375*(volume*density)
+    manual_weight = 0.09375*(manual_vol*density)
 else:
-    manual_weight = 0.0875*(volume*density)
+    manual_weight = 0.0875*(manual_vol*density)
 
 # Convert kg to lbs
 manual_weight = 2.20462*manual_weight*0.97 
@@ -95,4 +95,3 @@ manual_weight_ounces = manual_weight*16.0 - float(manual_weight_pounds)*16.0
 
 # Print the result
 st.success('Actual volume is %0.2f. Mix this much fragrance: %0.2f lbs %0.2f oz' % (manual_vol, manual_weight_pounds, manual_weight_ounces))
-
